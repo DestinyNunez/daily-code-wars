@@ -1,2 +1,2 @@
-# daily-code-wars
-Daily coding challenges
+# Daily Coding Challenges
+Daily coding challenges on codewars.com
