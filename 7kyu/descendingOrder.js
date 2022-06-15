@@ -9,11 +9,11 @@ Examples: Input: 42145 Output: 54421
           Input: 123456789 Output: 987654321
 
 
-p ~ Parameters- A non-negative integer
-r ~ Return- The integer passed in, in reverse
-e ~ Example- int = 52 return= 25 (reversed int)
-p ~ Pseudo- We want to take in the integer
 
+P: a non-negative number/integer
+R: a number - reversed in order from the original number
+E: 25 // 52 ; 31228 // 83221
+P: we want to put the numbers in order from least to greatest, and then reverse its order from greatest to lowest
 */
 
 function descendingOrder(n){
