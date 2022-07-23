@@ -4,6 +4,8 @@ Return an array, where the first element is the count of positives numbers and t
 
 If the input is an empty array or is null, return an empty array.*/
 
+
+
 function countPositivesSumNegatives(input) {
     let positiveNums = 0;
     let negativeNums = 0;
