@@ -4,6 +4,17 @@ For example, when an array is passed like [19, 5, 42, 2, 77], the output should 
 
 [10, 343445353, 3453445, 3453545353453] should return 3453455.*/
 
+
+//***UPDATED SOLUTION***
+function sumTwoSmallestNumbers(arr) {
+  const sortedArray = arr.sort((a,b) => a-b)
+    const sumOfLowestNums = sortedArray[0] + sortedArray[1]
+      return sumOfLowestNums
+}
+console.log(sumTwoSmallestNumbers([33,1,21,2,89,5,6,3,9,8,54,23,17]))
+
+-----------------------------------------------------------------------
+
 function sumTwoSmallestNumbers(numbers) {
   var longestArr = [];
   for(var i = 0; i < numbers.length; i++) {

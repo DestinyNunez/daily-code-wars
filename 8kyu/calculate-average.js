@@ -10,5 +10,7 @@ function find_average(array) {
     total += array[i]
   }
   const avg = total / numItems
-  return avg;
+  console.log(avg)
+  // return avg;    
 }
+find_average([1,8,4,5,7,3,4,7])
