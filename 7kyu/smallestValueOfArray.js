@@ -9,5 +9,9 @@
 // and check if array at index at i is less than index i + 1,
 // then store in index that variable using the array indexOf
 function min(arr, toReturn) {
-  // TODO 
+    if (toReturn === "value") {
+        //value function
+    } else {
+        //index function
+    }
 }
