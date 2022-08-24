@@ -9,9 +9,15 @@
 // and check if array at index at i is less than index i + 1,
 // then store in index that variable using the array indexOf
 function min(arr, toReturn) {
+    let smallestValue = Number.MAX_VALUE;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] < smallestValue) {
+          smallestValue = arr[i]
+        }
+      }
     if (toReturn === "value") {
-        //value function
+        return smallestValue;
     } else {
-        //index function
+        return arr.indexOf(smallestValue);
     }
 }
