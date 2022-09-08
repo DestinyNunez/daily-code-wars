@@ -1,16 +1,21 @@
 /*
--Create variable to store shortest string
+Simple, given a string of words, return the length of the shortest word(s).
+
+String will never be empty and you do not need to account for different data types.
+
+=========================================
 -create variable to split exsisting string into an array.
+-Create variable to store shortest string
 -loop through split string array 
--?check the length of each string and store it?
--check if shortest string is < string.min num
+-check if current string[i] < shortest string length then we reassign 
+the shortestStr variable to the current string.
 */
 
 function findShort(s){
-  let shortestStr = ""
-  let strSplit = s.split(" ") 
+  let strSplit = s.split(" ")
+    let shortestStr = strSplit[0]
     for (let i = 0; i < strSplit.length; i++) {
-      if (strSplit[i].length < strSplit[i + 1].length ) {
+      if (strSplit[i].length < shortestStr.length ) {
         shortestStr = strSplit[i]
       }
     }
