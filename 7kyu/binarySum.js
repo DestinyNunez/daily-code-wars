@@ -9,4 +9,4 @@ p- Add the values passed in together, then convert to a string which will return
 function addBinary(a,b){
   const binarySum = (a+b).toString(2)
   return binarySum
-}
+} 
